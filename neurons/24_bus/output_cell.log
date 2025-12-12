@@ -1,0 +1,136 @@
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.485149 | Val Loss: 0.480949
+Epoch  200/1000 | Train Loss: 0.449447 | Val Loss: 0.446381
+Epoch  300/1000 | Train Loss: 0.435028 | Val Loss: 0.436040
+Epoch  400/1000 | Train Loss: 0.427624 | Val Loss: 0.424830
+Epoch  500/1000 | Train Loss: 0.418317 | Val Loss: 0.418599
+Epoch  600/1000 | Train Loss: 0.409641 | Val Loss: 0.412820
+Epoch  700/1000 | Train Loss: 0.407880 | Val Loss: 0.405127
+Epoch  800/1000 | Train Loss: 0.401265 | Val Loss: 0.408638
+Epoch  900/1000 | Train Loss: 0.405392 | Val Loss: 0.402303
+Epoch 1000/1000 | Train Loss: 0.400648 | Val Loss: 0.399145
+Training logs saved to training_log_layers_2_neurons_64_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 285.87 seconds (4.76 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:01<00:00, 225.26it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_64_bus_24.csv
+Sampling took 1.90 seconds (0.03 minutes).
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.139888 | Val Loss: 0.146971
+Epoch  200/1000 | Train Loss: 0.098794 | Val Loss: 0.101330
+Epoch  300/1000 | Train Loss: 0.075650 | Val Loss: 0.079513
+Epoch  400/1000 | Train Loss: 0.070077 | Val Loss: 0.078366
+Epoch  500/1000 | Train Loss: 0.066935 | Val Loss: 0.071107
+Epoch  600/1000 | Train Loss: 0.063254 | Val Loss: 0.066441
+Epoch  700/1000 | Train Loss: 0.062855 | Val Loss: 0.063174
+Epoch  800/1000 | Train Loss: 0.061486 | Val Loss: 0.070788
+Epoch  900/1000 | Train Loss: 0.061132 | Val Loss: 0.058366
+Epoch 1000/1000 | Train Loss: 0.059789 | Val Loss: 0.063612
+Training logs saved to training_log_layers_2_neurons_128_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 290.41 seconds (4.84 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:01<00:00, 228.96it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_128_bus_24.csv
+Sampling took 1.87 seconds (0.03 minutes).
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.087900 | Val Loss: 0.089324
+
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.068832 | Val Loss: 0.073452
+Epoch  200/1000 | Train Loss: 0.058079 | Val Loss: 0.054783
+Epoch  300/1000 | Train Loss: 0.053817 | Val Loss: 0.054342
+Epoch  400/1000 | Train Loss: 0.051133 | Val Loss: 0.050538
+Epoch  500/1000 | Train Loss: 0.050549 | Val Loss: 0.051899
+Epoch  600/1000 | Train Loss: 0.050172 | Val Loss: 0.052884
+Epoch  700/1000 | Train Loss: 0.049182 | Val Loss: 0.051742
+Epoch  800/1000 | Train Loss: 0.048800 | Val Loss: 0.048097
+Epoch  900/1000 | Train Loss: 0.051386 | Val Loss: 0.046494
+Epoch 1000/1000 | Train Loss: 0.048705 | Val Loss: 0.052160
+Training logs saved to training_log_layers_2_neurons_512_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 289.47 seconds (4.82 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:01<00:00, 194.35it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_512_bus_24.csv
+Sampling took 2.14 seconds (0.04 minutes).
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.057230 | Val Loss: 0.064536
+Epoch  200/1000 | Train Loss: 0.051151 | Val Loss: 0.055518
+Epoch  300/1000 | Train Loss: 0.049898 | Val Loss: 0.047729
+Epoch  400/1000 | Train Loss: 0.049075 | Val Loss: 0.048444
+Epoch  500/1000 | Train Loss: 0.046317 | Val Loss: 0.048197
+Epoch  600/1000 | Train Loss: 0.044521 | Val Loss: 0.046418
+Epoch  700/1000 | Train Loss: 0.045404 | Val Loss: 0.047086
+Epoch  800/1000 | Train Loss: 0.045679 | Val Loss: 0.043879
+Epoch  900/1000 | Train Loss: 0.046094 | Val Loss: 0.046389
+Epoch 1000/1000 | Train Loss: 0.044313 | Val Loss: 0.042613
+Training logs saved to training_log_layers_2_neurons_1024_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 313.45 seconds (5.22 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:02<00:00, 128.83it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_1024_bus_24.csv
+Sampling took 3.01 seconds (0.05 minutes).
+
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.056023 | Val Loss: 0.054906
+Epoch  200/1000 | Train Loss: 0.050020 | Val Loss: 0.051496
+Epoch  300/1000 | Train Loss: 0.047280 | Val Loss: 0.045641
+Epoch  400/1000 | Train Loss: 0.047207 | Val Loss: 0.047170
+Epoch  500/1000 | Train Loss: 0.045478 | Val Loss: 0.045321
+Epoch  600/1000 | Train Loss: 0.044123 | Val Loss: 0.047608
+Epoch  700/1000 | Train Loss: 0.046561 | Val Loss: 0.046009
+Epoch  800/1000 | Train Loss: 0.045203 | Val Loss: 0.047938
+Epoch  900/1000 | Train Loss: 0.045279 | Val Loss: 0.042989
+Epoch 1000/1000 | Train Loss: 0.044560 | Val Loss: 0.046184
+Training logs saved to training_log_layers_2_neurons_2048_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 468.08 seconds (7.80 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:05<00:00, 56.54it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_2048_bus_24.csv
+Sampling took 6.34 seconds (0.11 minutes).
+Training denoiser with validation monitoring...
+Epoch  100/1000 | Train Loss: 0.052487 | Val Loss: 0.054557
+Epoch  200/1000 | Train Loss: 0.049625 | Val Loss: 0.050658
+Epoch  300/1000 | Train Loss: 0.045782 | Val Loss: 0.048320
+Epoch  400/1000 | Train Loss: 0.045663 | Val Loss: 0.041635
+Epoch  500/1000 | Train Loss: 0.045190 | Val Loss: 0.047565
+Epoch  600/1000 | Train Loss: 0.046517 | Val Loss: 0.045051
+Epoch  700/1000 | Train Loss: 0.044242 | Val Loss: 0.043145
+Epoch  800/1000 | Train Loss: 0.045494 | Val Loss: 0.047561
+Epoch  900/1000 | Train Loss: 0.045369 | Val Loss: 0.050110
+Epoch 1000/1000 | Train Loss: 0.045344 | Val Loss: 0.045354
+Training logs saved to training_log_layers_2_neurons_4096_bus_24.csv
+Loading best model from checkpoint...
+Training done. Total time: 1229.05 seconds (20.48 minutes).
+
+Sampling using stochastic DDIM with physics guidance...
+
+Stochastic DDIM Sampling: 100%|██████████| 334/334 [00:18<00:00, 17.77it/s]
+
+
+Generated 5000 stochastic-DDIM guided samples → ddim_generated_layers_2_neurons_4096_bus_24.csv
+Sampling took 19.27 seconds (0.32 minutes).
